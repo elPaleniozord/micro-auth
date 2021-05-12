@@ -1,0 +1,40 @@
+{
+  "name": "auth-micro",
+  "version": "1.0.0",
+  "description": "Microservice aiming to provide complex and universal solution to both authenticating and authorizating needs of modern web developement. Based on serverless developement model, can be deployed to most popular cloud platforms. Supports standard user/password model, popular auth providers like google and passwordless-authentication.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "",
+    "start": "node index.ts",
+    "start:dev": "nodemon index.ts",
+    "test": "test",
+    "test:dev": "NODE_ENV=test DATABASE_URL="
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/elPaleniozord/auth-micro.git"
+  },
+  "keywords": [
+    "auth",
+    "authentication",
+    "authorization",
+    "microservice",
+    "postgresql",
+    "node.js",
+    "express"
+  ],
+  "author": "jw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elPaleniozord/auth-micro/issues"
+  },
+  "homepage": "https://github.com/elPaleniozord/auth-micro#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.2.4",
+    "winston": "^3.3.3"
+  }
+}
